@@ -36,7 +36,6 @@ export class OwnerListComponent implements OnInit {
 
   public getOwnerDetails = (id) => { 
     const detailsUrl: string = `/owner/details/${id}`; 
-    console.log(detailsUrl);
     this.router.navigate([detailsUrl]); 
   }
 
